@@ -9,6 +9,7 @@ Le projet contient deux applications principales :
 ## 1. **Application 1 : Total des Ventes par Ville**  
    Cette application calcule le total des ventes dans chaque ville en utilisant un fichier texte contenant les ventes.  
    Format du fichier d'entrée `ventes.txt` :
+   ```txt
 2023-01-15 Paris Laptop 1200.50
 2022-01-16 Lyon Smartphone 800.00
 2021-02-10 Marseille Tablet 450.75
@@ -20,7 +21,9 @@ Le projet contient deux applications principales :
 2022-06-30 Lille Monitor 350.00
 2023-07-14 Strasbourg Keyboard 100.00
 2023-08-09 Nantes Mouse 50.00
+```
 ### 1.1 Classe TotalVentesParVille
+ 
 ```java
 package ma.enset;
 import org.apache.spark.SparkConf;
@@ -156,4 +159,4 @@ public class VentesParAnnéeDonner {
 
 ## 3. L'interface de spark master 
 
-![spark-5](https://github.com/user-attachments/assets/bb970aa2-0a62-4b98-9074-f492a5c3daae)
+![screencapture-localhost-8080-2024-10-08-23_59_51](https://github.com/user-attachments/assets/fb6ce04a-e2a9-4cef-87af-fdaecad2352b)
